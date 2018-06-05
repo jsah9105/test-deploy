@@ -1,6 +1,7 @@
 {
   "name": "test-deploy",
   "version": "0.0.1",
+  "main": "server.js",
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
@@ -24,6 +25,7 @@
     "@angular/platform-browser-dynamic": "^6.0.2",
     "@angular/router": "^6.0.2",
     "core-js": "^2.5.4",
+    "ejs": "~1.0.0",
     "express": "^4.16.3",
     "path": "^0.12.7",
     "rxjs": "^6.0.0",
